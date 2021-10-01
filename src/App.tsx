@@ -1,5 +1,11 @@
+import { Forum } from "./pages/forum";
+
 function App() {
-  return <div className="App">app</div>;
+  return (
+    <div className="App">
+      <Forum />
+    </div>
+  );
 }
 
 export default App;
